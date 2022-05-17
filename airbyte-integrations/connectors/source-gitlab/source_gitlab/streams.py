@@ -322,4 +322,4 @@ class EpicIssues(GitlabChildStream):
     path_list = ["group_id", "id"]
     flatten_id_keys = ["milestone", "assignee", "author"]
     flatten_list_keys = ["assignees"]
-    path_template = "groups/{group_id}/epics/{id}/issues"
+    path_template = "groups/{group_id}/epics/{iid}/issues"
